@@ -1,0 +1,25 @@
+#sets the home page
+DirectoryIndex index.php
+
+#Disallows directory browsing
+Options -Indexes
+
+#If page is not found, open 404.html
+ErrorDocument 404 /404
+
+#If acccess is forbidden 403
+ErrorDocument 401 /inc/4013
+ErrorDocument 403 /inc/4013
+ErrorDocument 404 /inc/404
+ErrorDocument 303 /inc/4013
+
+# Deny access to .htaccess
+<Files .htaccess>w
+Order allow,deny
+Deny from all
+</Files>
+
+# URL Rewrites
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]

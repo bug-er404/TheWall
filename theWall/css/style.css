@@ -1,0 +1,108 @@
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color: inherit !important;
+}
+#home {
+    background-color: #0e0f11;
+}
+.jumbotron {
+    background-image: url("/img/slider.jpg");
+    background-size: cover;
+    padding: 11rem 2rem;
+}
+/* mouse over link */
+a:hover {
+    text-decoration: none;
+    font-size: 110%;
+}
+.list-group-item{
+    background: none;
+    color: ghostwhite;
+}
+#pageBackground1{
+    background-image: url("/img/pink.jpg");
+    background-size: cover;
+    /* blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+#pageBackground2{
+    background-image: url("/img/bg1.jpg");
+    background-size: cover;
+    /* blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+#pageBackground3{
+    background-image: url("/img/bg4.jpg");
+    background-size: cover;
+    /* blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: absolute;
+}
+#pageBackground4{
+    background-image: url("/img/bg3.jpg");
+    background-size: cover;
+    /* blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: absolute;
+}
+.disableBlur {
+    filter: blur(0);
+}
+.badge {
+    flex: 0 0 auto;
+    font-size: 90%;
+}
+input[type="radio"] {
+    display: none;
+}
+#productRating input[type="radio"]+label:hover {
+    transform: scale(1.5);
+    background: url('smaharj3.students.acg.edu/img/rate_filled.png');
+}
+.rating {
+    pointer-events:none;
+}
+.star_rated {
+    color: gold;
+}
+.starrate:hover{
+    transform: scale(1.5);
+    display: inline-block;
+}
+.star {
+    text-shadow: 0 0 1px #F48F0A;
+    cursor: pointer;
+}
