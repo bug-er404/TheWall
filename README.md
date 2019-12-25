@@ -14,4 +14,4 @@ Developed using:
 [Click here to open the website.](http://smaharj.students.acg.edu/)
 > To save the catalog of products, admin login is withheld.
 
-Screenshots and summary of the website can be found under [Project Summary PDF](../projectSummary.pdf).
+Screenshots and summary of the website can be found under [Project Summary PDF](../master/projectSummary.pdfprojectSummary.pdf).
